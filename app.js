@@ -40,4 +40,9 @@ for (var i = 0; i < ExpYear; i++) {
 
 document.write(result);
 
+function Bakeground() {
+    prompt('Enter your Bakeground?');
+    console.log('hello function');
+}
 
+Bakeground();
