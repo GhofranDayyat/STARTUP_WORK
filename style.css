@@ -1,6 +1,9 @@
+/*universal selector
+*/
 * {
     margin: 0;
   }
+  /* element selector*/
 header nav ul {
   list-style: none;
 }
@@ -8,9 +11,10 @@ header nav ul li {
   display: inline-block;
   padding: 50px;
 }
+/*
 body{
     background-color: rgb(15, 238, 45);
-}
+} */
 main h1 {
     text-align: center;
     margin: 30px 10px 30px 10px;
@@ -18,13 +22,22 @@ main h1 {
 
 .paraghraph {
     
-    border: solid 1px rgb(228, 231, 15);
+    border: solid 1px rgb(15, 40, 77);
     padding: 20px 0 40px 60px;
     margin: 100px;
-    color: rgb(30, 33, 228);
+    color: rgb(12, 12, 29);
   }
+  body {
+    background-image: url("https://hshaus.com/wp-content/uploads/2019/03/Work-in-Estonia-Startup-Visa-Crop-Compress.jpg");
+    background-repeat: no-repeat;
+                background-size: cover;
+    {
 img {
   /* float: right; */
-  width: 200px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
+}
+
+#image {
+float: left;
 }

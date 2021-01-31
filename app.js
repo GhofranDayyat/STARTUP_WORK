@@ -25,9 +25,9 @@ while (JopTayp !== 'contract' && JopTayp !== 'freelance') {
 var JopDetails;
 
 if (JopTayp === 'contract') {
-    JopDetails = '<img src="Image/Contract-Management-2.jpg"/>';
+    JopDetails = '<img id="image" src="Image/Contract-Management-2.jpg"/>';
 } else if (JopTayp === 'freelance') {
-    JopDetails = '<img src="Image/download.jpg"/>';
+    JopDetails = '<img id="image" src="Image/download.jpg"/>';
 }
 
 var ExpYear = prompt('How Many Experiec Year Do you Have?');
