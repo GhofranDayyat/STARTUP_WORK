@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+  }
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 50px;
+}
+body{
+    background-color: rgb(15, 238, 45);
+}
+main h1 {
+    text-align: center;
+    margin: 30px 10px 30px 10px;
+  }
+
+.paraghraph {
+    
+    border: solid 1px rgb(228, 231, 15);
+    padding: 20px 0 40px 60px;
+    margin: 100px;
+    color: rgb(30, 33, 228);
+  }
+img {
+  /* float: right; */
+  width: 200px;
+  height: 200px;
+}
